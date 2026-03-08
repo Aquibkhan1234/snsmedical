@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install uv
 
-RUN uv sync --system
+RUN uv sync 
 
 EXPOSE 8501
 
